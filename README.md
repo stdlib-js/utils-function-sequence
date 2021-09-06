@@ -154,6 +154,13 @@ var v = f( 5, 3 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/compose`][@stdlib/utils/compose]: function composition.
+-   [`@stdlib/utils/async/function-sequence`][@stdlib/utils/async/function-sequence]: function sequence.
+
 </section>
 
 <!-- /.related -->
@@ -215,7 +222,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-function-sequence/main/LICENSE
 
+<!-- <related-links> -->
+
 [@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose
+
+[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence
+
+<!-- </related-links> -->
 
 </section>
 
