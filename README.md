@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.funseq;
+})();
 })();
 </script>
 ```
@@ -140,6 +142,7 @@ var z = f( 4, 6 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function a( x, y ) {
     return x * y;
@@ -158,6 +161,7 @@ var f = funseq( a, b, c );
 var v = f( 5, 3 );
 // returns 2
 
+})();
 })();
 </script>
 </body>
@@ -262,9 +266,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose/tree/umd
+[@stdlib/utils/compose]: https://github.com/stdlib-js/utils-compose/tree/umd/tree/umd
 
-[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence/tree/umd
+[@stdlib/utils/async/function-sequence]: https://github.com/stdlib-js/utils-async-function-sequence/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
