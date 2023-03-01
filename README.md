@@ -166,8 +166,8 @@ var v = f( 5, 3 );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/compose`][@stdlib/utils/compose]</span><span class="delimiter">: </span><span class="description">function composition.</span>
--   <span class="package-name">[`@stdlib/utils/async/function-sequence`][@stdlib/utils/async/function-sequence]</span><span class="delimiter">: </span><span class="description">function sequence.</span>
+-   <span class="package-name">[`@stdlib/utils-compose`][@stdlib/utils/compose]</span><span class="delimiter">: </span><span class="description">function composition.</span>
+-   <span class="package-name">[`@stdlib/utils-async/function-sequence`][@stdlib/utils/async/function-sequence]</span><span class="delimiter">: </span><span class="description">function sequence.</span>
 
 </section>
 
