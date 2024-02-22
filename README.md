@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-function-sequence/tags). For example,
+
+```javascript
 import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.1-deno/mod.js';
 ```
 
@@ -121,7 +126,7 @@ var z = f( 4, 6 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.1-deno/mod.js';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@deno/mod.js';
 
 function a( x, y ) {
     return x * y;
