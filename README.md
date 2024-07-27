@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-function-sequence/tags). For example,
+
+```javascript
 import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.2-esm/index.mjs';
 ```
 
@@ -126,7 +131,7 @@ var z = f( 4, 6 );
 <body>
 <script type="module">
 
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.2-esm/index.mjs';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@esm/index.mjs';
 
 function a( x, y ) {
     return x * y;
