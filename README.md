@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@deno/mod.js';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.2-deno/mod.js';
 ```
 
 #### funseq( ...fcn )
@@ -121,7 +121,7 @@ var z = f( 4, 6 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@deno/mod.js';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.2-deno/mod.js';
 
 function a( x, y ) {
     return x * y;
