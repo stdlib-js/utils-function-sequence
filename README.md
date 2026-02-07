@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@esm/index.mjs';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.3-esm/index.mjs';
 ```
 
 #### funseq( ...fcn )
@@ -126,7 +126,7 @@ var z = f( 4, 6 );
 <body>
 <script type="module">
 
-import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@esm/index.mjs';
+import funseq from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-function-sequence@v0.2.3-esm/index.mjs';
 
 function a( x, y ) {
     return x * y;
